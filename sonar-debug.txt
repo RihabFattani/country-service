@@ -1,0 +1,662 @@
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: C:\apache-maven-3.9.16
+Java version: 24.0.1, vendor: Oracle Corporation, runtime: C:\Users\rihab\.jdks\openjdk-24.0.1
+Default locale: fr_FR, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\apache-maven-3.9.16\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\rihab\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\apache-maven-3.9.16\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\rihab\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\rihab\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\rihab\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Creating adapter using nameMapper 'gaecv' and factory 'rwlock-local'
+[DEBUG] Extension realms for project com.countryservice:country-service:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.5.4: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:3.5.4: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Could not find metadata org.sonarsource.scanner.maven:sonar-maven-plugin/maven-metadata.xml in local (C:\Users\rihab\.m2\repository)
+[DEBUG] Skipped remote request for org.sonarsource.scanner.maven:sonar-maven-plugin/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Resolved plugin version for org.sonarsource.scanner.maven:sonar-maven-plugin to 5.8.0.7211 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.countryservice:country-service:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [org.sonarsource.scanner.maven:sonar-maven-plugin:sonar]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------< com.countryservice:country-service >-----------------
+[INFO] Building country-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Reusing cached resolved plugin version for org.sonarsource.scanner.maven:sonar-maven-plugin to 5.8.0.7211 from POM null
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.countryservice:country-service:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${sonar.skip}</skip>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1016200, ConflictMarker.markTime=308900, ConflictMarker.nodeCount=255, ConflictIdSorter.graphTime=1175600, ConflictIdSorter.topsortTime=780400, ConflictIdSorter.conflictIdCount=108, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=25054400, ConflictResolver.conflictItemCount=221, DfDependencyCollector.collectTime=840402300, DfDependencyCollector.transformTime=30527900}
+[DEBUG] com.countryservice:country-service:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:3.5.4:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:3.5.4:compile (version managed from 3.5.4)
+[DEBUG]          org.springframework.boot:spring-boot:jar:3.5.4:compile (version managed from 3.5.4)
+[DEBUG]          org.springframework.boot:spring-boot-autoconfigure:jar:3.5.4:compile (version managed from 3.5.4)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:3.5.4:compile (version managed from 3.5.4)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.5.18:compile (version managed from 1.5.18)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.5.18:compile (version managed from 1.5.18)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3:compile (version managed from 2.24.3)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.24.3:compile (version managed from 2.24.3)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:2.0.17:compile (version managed from 2.0.17)
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (version managed from 2.1.1)
+[DEBUG]          org.yaml:snakeyaml:jar:2.4:compile (version managed from 2.4)
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:3.5.4:compile (version managed from 3.5.4)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.19.2:compile (version managed from 2.19.2)
+[DEBUG]             com.fasterxml.jackson.core:jackson-core:jar:2.19.2:compile (version managed from 2.19.2)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.19.2:compile (version managed from 2.19.2)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.19.2:compile (version managed from 2.19.2)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.19.2:compile (version managed from 2.19.2)
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:3.5.4:compile (version managed from 3.5.4)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.43:compile (version managed from 10.1.43)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.43:compile (version managed from 10.1.43)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.43:compile (version managed from 10.1.43)
+[DEBUG]       org.springframework:spring-web:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.springframework:spring-beans:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          io.micrometer:micrometer-observation:jar:1.15.2:compile (version managed from 1.14.9)
+[DEBUG]             io.micrometer:micrometer-commons:jar:1.15.2:compile (version managed from 1.15.2)
+[DEBUG]       org.springframework:spring-webmvc:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.springframework:spring-aop:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.springframework:spring-context:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.springframework:spring-expression:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]    com.h2database:h2:jar:2.3.232:runtime
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.5.4:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc:jar:3.5.4:compile (version managed from 3.5.4)
+[DEBUG]          com.zaxxer:HikariCP:jar:6.3.1:compile (version managed from 6.3.1)
+[DEBUG]          org.springframework:spring-jdbc:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]       org.hibernate.orm:hibernate-core:jar:6.6.22.Final:compile (version managed from 6.6.22.Final)
+[DEBUG]          jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (version managed from 3.1.0)
+[DEBUG]          jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (version managed from 2.0.1)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.6.1.Final:runtime (version managed from 3.5.0.Final)
+[DEBUG]          org.hibernate.common:hibernate-commons-annotations:jar:7.0.3.Final:runtime
+[DEBUG]          io.smallrye:jandex:jar:3.2.0:runtime
+[DEBUG]          com.fasterxml:classmate:jar:1.7.0:runtime (version managed from 1.5.1)
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.17.6:runtime (version managed from 1.15.11)
+[DEBUG]          org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (version managed from 4.0.2)
+[DEBUG]             org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (version managed from 4.0.5)
+[DEBUG]                org.eclipse.angus:angus-activation:jar:2.0.2:runtime (version managed from 2.0.2)
+[DEBUG]                org.glassfish.jaxb:txw2:jar:4.0.5:runtime (version managed from 4.0.5)
+[DEBUG]                com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (version managed from 4.1.2)
+[DEBUG]          jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (version managed from 2.0.1)
+[DEBUG]          org.antlr:antlr4-runtime:jar:4.13.0:compile
+[DEBUG]       org.springframework.data:spring-data-jpa:jar:3.5.2:compile (version managed from 3.5.2)
+[DEBUG]          org.springframework.data:spring-data-commons:jar:3.5.2:compile (version managed from 3.5.2)
+[DEBUG]          org.springframework:spring-orm:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.springframework:spring-tx:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.slf4j:slf4j-api:jar:2.0.17:compile (version managed from 2.0.2)
+[DEBUG]       org.springframework:spring-aspects:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.24:compile (version managed from 1.9.22.1)
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-rest:jar:3.5.4:compile
+[DEBUG]       org.springframework.data:spring-data-rest-webmvc:jar:4.5.2:compile (version managed from 4.5.2)
+[DEBUG]          org.springframework.data:spring-data-rest-core:jar:4.5.2:compile (version managed from 4.5.2)
+[DEBUG]             org.springframework.hateoas:spring-hateoas:jar:2.5.1:compile (version managed from 2.5.1)
+[DEBUG]             org.springframework.plugin:spring-plugin-core:jar:3.0.0:compile
+[DEBUG]             org.atteo:evo-inflector:jar:1.3:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.19.2:compile (version managed from 2.19.0)
+[DEBUG]    org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:2.8.6:compile
+[DEBUG]       org.springdoc:springdoc-openapi-starter-webmvc-api:jar:2.8.6:compile
+[DEBUG]          org.springdoc:springdoc-openapi-starter-common:jar:2.8.6:compile
+[DEBUG]             io.swagger.core.v3:swagger-core-jakarta:jar:2.2.29:compile
+[DEBUG]                org.apache.commons:commons-lang3:jar:3.17.0:compile (version managed from 3.17.0)
+[DEBUG]                io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.29:compile
+[DEBUG]                io.swagger.core.v3:swagger-models-jakarta:jar:2.2.29:compile
+[DEBUG]                jakarta.validation:jakarta.validation-api:jar:3.0.2:compile (version managed from 3.0.2)
+[DEBUG]                com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.19.2:compile (version managed from 2.18.2)
+[DEBUG]       org.webjars:swagger-ui:jar:5.20.1:compile
+[DEBUG]       org.webjars:webjars-locator-lite:jar:1.1.0:compile (version managed from 1.0.1)
+[DEBUG]          org.jspecify:jspecify:jar:1.0.0:compile (version managed from 1.0.0)
+[DEBUG]    com.mysql:mysql-connector-j:jar:9.3.0:runtime (exclusions managed from [com.google.protobuf:protobuf-java:*:*])
+[DEBUG]    org.projectlombok:lombok:jar:1.18.38:compile (optional)
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:3.5.4:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:3.5.4:test (version managed from 3.5.4)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:3.5.4:test (version managed from 3.5.4)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.9.0:compile (version managed from 2.9.0)
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile (version managed from 4.0.2)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:2.1.3:compile (version managed from 2.1.3)
+[DEBUG]       net.minidev:json-smart:jar:2.5.2:runtime (version managed from 2.5.2)
+[DEBUG]          net.minidev:accessors-smart:jar:2.5.2:runtime
+[DEBUG]             org.ow2.asm:asm:jar:9.7.1:runtime
+[DEBUG]       org.assertj:assertj-core:jar:3.27.3:test (version managed from 3.27.3)
+[DEBUG]       org.awaitility:awaitility:jar:4.2.2:test (version managed from 4.2.2)
+[DEBUG]       org.hamcrest:hamcrest:jar:3.0:test (version managed from 3.0)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.12.2:test (version managed from 5.12.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test (version managed from 5.12.2)
+[DEBUG]             org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.12.2:test (version managed from 1.12.2)
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test (version managed from 5.12.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test (version managed from 5.12.2)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.12.2:test (version managed from 1.12.2)
+[DEBUG]       org.mockito:mockito-core:jar:5.17.0:test (version managed from 5.17.0)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.17.6:test (version managed from 1.15.11)
+[DEBUG]          org.objenesis:objenesis:jar:3.3:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:5.17.0:test (version managed from 5.17.0)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.3:test (version managed from 1.5.3)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]          org.springframework:spring-jcl:jar:6.2.9:compile (version managed from 6.2.9)
+[DEBUG]       org.springframework:spring-test:jar:6.2.9:test (version managed from 6.2.9)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.10.3:test (version managed from 2.10.3)
+[INFO] 
+[INFO] --- sonar:5.8.0.7211:sonar (default-cli) @ country-service ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=151700, ConflictMarker.markTime=30000, ConflictMarker.nodeCount=21, ConflictIdSorter.graphTime=82000, ConflictIdSorter.topsortTime=18700, ConflictIdSorter.conflictIdCount=18, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=202500, ConflictResolver.conflictItemCount=21, DfDependencyCollector.collectTime=118430600, DfDependencyCollector.transformTime=511300}
+[DEBUG] org.sonarsource.scanner.maven:sonar-maven-plugin:jar:5.8.0.7211
+[DEBUG]    org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.4.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-cipher:jar:2.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]    org.sonarsource.scanner.lib:sonar-scanner-java-library:jar:4.1.2.1663:compile
+[DEBUG]       com.google.code.gson:gson:jar:2.13.2:compile
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.41.0:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.28.0:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.19.0:compile
+[DEBUG]          commons-io:commons-io:jar:2.20.0:compile
+[DEBUG]       org.sonarsource.scanner.lib:sonar-scanner-download-cache:jar:4.1.2.1663:compile
+[DEBUG]       org.sonarsource.scanner.lib:sonar-scanner-java-library-batch-interface:jar:4.1.2.1663:compile
+[DEBUG]       io.github.hakky54:ayza:jar:10.0.3:compile
+[DEBUG]          io.github.hakky54:sude:jar:2.0.2:compile
+[DEBUG]       org.bouncycastle:bcprov-jdk18on:jar:1.85.2:compile
+[DEBUG]       de.siegmar:fastcsv:jar:3.7.0:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.18.0:compile
+[DEBUG] Created new class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211
+[DEBUG] Importing foreign packages into class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211
+[DEBUG]   Included: org.sonarsource.scanner.maven:sonar-maven-plugin:jar:5.8.0.7211
+[DEBUG]   Included: org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-cipher:jar:2.0
+[DEBUG]   Included: org.sonarsource.scanner.lib:sonar-scanner-java-library:jar:4.1.2.1663
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.13.2
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.41.0
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.28.0
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.19.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.20.0
+[DEBUG]   Included: org.sonarsource.scanner.lib:sonar-scanner-download-cache:jar:4.1.2.1663
+[DEBUG]   Included: org.sonarsource.scanner.lib:sonar-scanner-java-library-batch-interface:jar:4.1.2.1663
+[DEBUG]   Included: io.github.hakky54:ayza:jar:10.0.3
+[DEBUG]   Included: io.github.hakky54:sude:jar:2.0.2
+[DEBUG]   Included: org.bouncycastle:bcprov-jdk18on:jar:1.85.2
+[DEBUG]   Included: de.siegmar:fastcsv:jar:3.7.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.18.0
+[DEBUG] Loading mojo org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar from plugin realm ClassRealm[plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]
+[DEBUG] Configuring mojo execution 'org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar:default-cli' with basic configurator -->
+[DEBUG]   (f) mojoExecution = org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar {execution: default-cli}
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@60d40ff4
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[WARNING] Using an unspecified version instead of an explicit plugin version may introduce breaking analysis changes at an unwanted time. It is highly recommended to use an explicit version, e.g. 'org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211'.
+[DEBUG] Skipping proxy settings: No active proxy detected.
+[INFO] Java 24.0.1 Oracle Corporation (64-bit)
+[INFO] Windows 11 10.0 (amd64)
+[DEBUG] Scanner max available memory: 1 GB
+[DEBUG] Using JVM default truststore: C:\Users\rihab\.jdks\openjdk-24.0.1\lib\security\cacerts
+[DEBUG] Download cache base directory: C:\Users\rihab\.sonar\cache
+[DEBUG] Loading OS trusted SSL certificates...
+[DEBUG] This operation might be slow or even get stuck. You can skip it by passing the scanner property 'sonar.scanner.skipSystemTruststore=true'
+[DEBUG] Successfully loaded KeyStore of the type [Windows-ROOT] having [54] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-ROOT-LOCALMACHINE] having [54] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-ROOT-CURRENTUSER] having [54] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-MY] having [10] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-MY-CURRENTUSER] having [10] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-MY-LOCALMACHINE] having [0] entries
+[DEBUG] Loaded [182] system trusted certificates
+[DEBUG] Loaded truststore from 'C:\Users\rihab\.jdks\openjdk-24.0.1\lib\security\cacerts' containing 112 certificates
+[DEBUG] --> GET http://localhost:9000/api/v2/analysis/version
+[DEBUG] <-- 200 http://localhost:9000/api/v2/analysis/version (220ms)
+[INFO] Communicating with SonarQube Community Build 26.10.0.133078
+[INFO] JRE provisioning: os[windows], arch[amd64]
+[DEBUG] --> GET http://localhost:9000/api/v2/analysis/jres?os=windows&arch=amd64
+[DEBUG] <-- 200 http://localhost:9000/api/v2/analysis/jres?os=windows&arch=amd64 (50ms)
+[DEBUG] Executing: C:\Users\rihab\.sonar\cache\d35f31e712f0fcf6ac5a093edc90204fbff22f720ba3950bd09d331d5e621636\OpenJDK21U-jre_x64_windows_hotspot_21.0.12.1_1.zip_extracted\jdk-21.0.12.1+1-jre\bin\java.exe --version
+[DEBUG] openjdk 21.0.12.1 2026-08-18 LTS
+[DEBUG] OpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)
+[DEBUG] OpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)
+[DEBUG] --> GET http://localhost:9000/api/v2/analysis/engine
+[DEBUG] <-- 200 http://localhost:9000/api/v2/analysis/engine (19ms)
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Work directory: C:\Users\rihab\eclipse-workspace\country-service\target\sonar
+[DEBUG] Executing: C:\Users\rihab\.sonar\cache\d35f31e712f0fcf6ac5a093edc90204fbff22f720ba3950bd09d331d5e621636\OpenJDK21U-jre_x64_windows_hotspot_21.0.12.1_1.zip_extracted\jdk-21.0.12.1+1-jre\bin\java.exe -Dorg.bouncycastle.pkcs12.ignore_useless_passwd=true -jar C:\Users\rihab\.sonar\cache\f55ab10baa576e7b19e1a1f514771fc47a1da99bf448ff36f83d801036fe6b36\sonar-scanner-engine-community-13.15.0.6376.jar
+[INFO] Starting SonarScanner Engine...
+[INFO] Java 21.0.12.1 Eclipse Adoptium (64-bit)
+[DEBUG] JVM max available memory: 1 GB
+[DEBUG] Sonar User Home: C:\Users\rihab\.sonar
+[DEBUG] Scanner Engine Version 13.15.0.6376
+[DEBUG] SonarQube Server Edition Community
+[DEBUG] Loading OS trusted SSL certificates...
+[DEBUG] This operation might be slow or even get stuck. You can skip it by passing the scanner property 'sonar.scanner.skipSystemTruststore=true'
+[DEBUG] Successfully loaded KeyStore of the type [Windows-ROOT] having [54] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-ROOT-LOCALMACHINE] having [54] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-ROOT-CURRENTUSER] having [54] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-MY] having [10] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-MY-CURRENTUSER] having [10] entries
+[DEBUG] Successfully loaded KeyStore of the type [Windows-MY-LOCALMACHINE] having [0] entries
+[DEBUG] Loaded [182] system trusted certificates
+[DEBUG] Loaded truststore from 'C:\Users\rihab\.jdks\openjdk-24.0.1\lib\security\cacerts' containing 112 certificates
+[INFO] Load global settings
+[DEBUG] --> GET http://localhost:9000/api/settings/values.protobuf
+[DEBUG] <-- 200 http://localhost:9000/api/settings/values.protobuf (139ms, unknown-length body)
+[INFO] Load global settings (done) | time=228ms
+[INFO] Server id: 147B411E-AaE8JDNfT70_BvuIGzO7
+[DEBUG] User cache: C:\Users\rihab\.sonar\cache
+[INFO] Loading required plugins
+[INFO] Load plugins index
+[DEBUG] --> GET http://localhost:9000/api/plugins/installed
+[DEBUG] <-- 200 http://localhost:9000/api/plugins/installed (163ms, unknown-length body)
+[INFO] Load plugins index (done) | time=172ms
+[INFO] Load/download plugins
+[INFO] Load/download plugins (done) | time=28ms
+[DEBUG] Plugins not loaded because they are optional: [csharp, flex, go, web, jacoco, javasymbolicexecution, java, javascript, kotlin, php, python, ruby, rust, sonarscala, vbnet, xml]
+[DEBUG] Plugins loaded:
+[DEBUG]   * IaC Code Quality and Security 2.21.0.24162 (iac)
+[DEBUG]   * Text Code Quality and Security 2.52.0.13617 (text)
+[DEBUG] --> GET http://localhost:9000/api/server/version
+[DEBUG] <-- 200 http://localhost:9000/api/server/version (14ms, 14-byte body)
+[DEBUG] SonarQube Server Version 26.10.0.133078
+[DEBUG] register org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda/0x0000018a53322878@37d871c2 with shutdown hook
+[INFO] Load project settings for component key: 'com.countryservice:country-service'
+[DEBUG] --> GET http://localhost:9000/api/settings/values.protobuf?component=com.countryservice%3Acountry-service
+[DEBUG] <-- 404 http://localhost:9000/api/settings/values.protobuf?component=com.countryservice%3Acountry-service (34ms, unknown-length body)
+[INFO] Process project properties
+[DEBUG] Build system auto-configuration was skipped: Only supported for the SonarScanner CLI and the SonarScanner for Cargo
+[INFO] Process project properties (done) | time=22ms
+[INFO] Project key: com.countryservice:country-service
+[INFO] Base dir: C:\Users\rihab\eclipse-workspace\country-service
+[INFO] Working dir: C:\Users\rihab\eclipse-workspace\country-service\target\sonar
+[DEBUG] Project global encoding: UTF-8, default locale: fr_FR
+[DEBUG] loading config FileBasedConfig[C:\Users\rihab\.config\jgit\config]
+[DEBUG] readpipe [C:\Program Files\Git\cmd\git.exe, --version],C:\Program Files\Git\cmd
+[DEBUG] readpipe may return 'git version 2.53.0.windows.3'
+[DEBUG] remaining output:
+
+[DEBUG] readpipe [C:\Program Files\Git\cmd\git.exe, config, --system, --show-origin, --list, -z],C:\Program Files\Git\cmd
+[DEBUG] readpipe may return 'file:C:/Program Files/Git/etc/gitconfig\u0000diff.astextplain.textconv'
+[DEBUG] remaining output:
+
+[DEBUG] astextplain\u0000file:C:/Program Files/Git/etc/gitconfig\u0000filter.lfs.clean
+[DEBUG] git-lfs clean -- %f\u0000file:C:/Program Files/Git/etc/gitconfig\u0000filter.lfs.smudge
+[DEBUG] git-lfs smudge -- %f\u0000file:C:/Program Files/Git/etc/gitconfig\u0000filter.lfs.process
+[DEBUG] git-lfs filter-process\u0000file:C:/Program Files/Git/etc/gitconfig\u0000filter.lfs.required
+[DEBUG] true\u0000file:C:/Program Files/Git/etc/gitconfig\u0000http.sslbackend
+[DEBUG] schannel\u0000file:C:/Program Files/Git/etc/gitconfig\u0000core.autocrlf
+[DEBUG] true\u0000file:C:/Program Files/Git/etc/gitconfig\u0000core.fscache
+[DEBUG] true\u0000file:C:/Program Files/Git/etc/gitconfig\u0000core.symlinks
+[DEBUG] false\u0000file:C:/Program Files/Git/etc/gitconfig\u0000pull.rebase
+[DEBUG] false\u0000file:C:/Program Files/Git/etc/gitconfig\u0000credential.helper
+[DEBUG] manager\u0000file:C:/Program Files/Git/etc/gitconfig\u0000credential.https://dev.azure.com.usehttppath
+[DEBUG] true\u0000file:C:/Program Files/Git/etc/gitconfig\u0000init.defaultbranch
+[DEBUG] master\u0000
+[DEBUG] loading config FileBasedConfig[C:\Program Files\Git\etc\gitconfig]
+[DEBUG] loading config FileBasedConfig[C:\Users\rihab\.config\git\config]
+[DEBUG] loading config UserConfigFile[C:\Users\rihab\.gitconfig]
+[DEBUG] Injecting GitHub organization property: {sonar.iac.internal.github_organization=RihabFattani}
+[DEBUG] Creating module hierarchy
+[DEBUG]   Init module 'country-service'
+[DEBUG]     Base dir: C:\Users\rihab\eclipse-workspace\country-service
+[DEBUG]     Working dir: C:\Users\rihab\eclipse-workspace\country-service\target\sonar
+[DEBUG]     Module global encoding: UTF-8, default locale: fr_FR
+[INFO] Load quality profiles
+[DEBUG] --> GET http://localhost:9000/api/qualityprofiles/search.protobuf?project=com.countryservice%3Acountry-service
+[DEBUG] <-- 404 http://localhost:9000/api/qualityprofiles/search.protobuf?project=com.countryservice%3Acountry-service (17ms, unknown-length body)
+[DEBUG] --> GET http://localhost:9000/api/qualityprofiles/search.protobuf?defaults=true
+[DEBUG] <-- 200 http://localhost:9000/api/qualityprofiles/search.protobuf?defaults=true (176ms, 3380-byte body)
+[INFO] Load quality profiles (done) | time=219ms
+[INFO] Load active rules
+[DEBUG] --> GET http://localhost:9000/api/v2/analysis/active_rules?projectKey=com.countryservice:country-service
+[DEBUG] <-- 403 http://localhost:9000/api/v2/analysis/active_rules?projectKey=com.countryservice:country-service (26ms, unknown-length body)
+[DEBUG] Cleanup org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda/0x0000018a53322878@37d871c2 during JVM shutdown
+[ERROR] You're not authorized to analyze this project or the project doesn't exist on SonarQube and you're not authorized to create it. Please contact an administrator.
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@fa36558-org.sonar.scanner.report.ReportPublisher': Unsatisfied dependency expressed through constructor parameter 7: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@fa36558-org.sonar.scanner.report.ActiveRulesPublisher': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'ActiveRules' defined in org.sonar.scanner.rule.ActiveRulesProvider: Failed to instantiate [org.sonar.scanner.plugin.api.impl.rule.DefaultActiveRules]: Factory method 'provide' threw exception with message: You're not authorized to analyze this project or the project doesn't exist on SonarQube and you're not authorized to create it. Please contact an administrator.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:204)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart(SpringGlobalContainer.java:150)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.ServerScannerEngineRunner.runSpringContainer(ServerScannerEngineRunner.java:35)
+	at org.sonar.scanner.bootstrap.AbstractScannerEngineRunner.execute(AbstractScannerEngineRunner.java:69)
+	at org.sonar.scanner.bootstrap.AbstractScannerEngineRunner.execute(AbstractScannerEngineRunner.java:51)
+	at org.sonar.scanner.bootstrap.ScannerMain.runScannerEngine(ScannerMain.java:144)
+	at org.sonar.scanner.bootstrap.ScannerMain.run(ScannerMain.java:65)
+	at org.sonar.scanner.bootstrap.ScannerMain.main(ScannerMain.java:45)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@fa36558-org.sonar.scanner.report.ActiveRulesPublisher': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'ActiveRules' defined in org.sonar.scanner.rule.ActiveRulesProvider: Failed to instantiate [org.sonar.scanner.plugin.api.impl.rule.DefaultActiveRules]: Factory method 'provide' threw exception with message: You're not authorized to analyze this project or the project doesn't exist on SonarQube and you're not authorized to create it. Please contact an administrator.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2015)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1978)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1718)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ActiveRules' defined in org.sonar.scanner.rule.ActiveRulesProvider: Failed to instantiate [org.sonar.scanner.plugin.api.impl.rule.DefaultActiveRules]: Factory method 'provide' threw exception with message: You're not authorized to analyze this project or the project doesn't exist on SonarQube and you're not authorized to create it. Please contact an administrator.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.sonar.scanner.plugin.api.impl.rule.DefaultActiveRules]: Factory method 'provide' threw exception with message: You're not authorized to analyze this project or the project doesn't exist on SonarQube and you're not authorized to create it. Please contact an administrator.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 56 common frames omitted
+Caused by: You're not authorized to analyze this project or the project doesn't exist on SonarQube and you're not authorized to create it. Please contact an administrator.
+Caused by: org.sonar.scanner.http.service.HttpResponseException: GET http://localhost:9000/api/v2/analysis/active_rules failed with HTTP 403: Insufficient privileges
+	at org.sonar.scanner.http.service.ServiceClient.toException(ServiceClient.java:114)
+	at org.sonar.scanner.http.service.ServiceClient.callOrFail(ServiceClient.java:92)
+	at org.sonar.scanner.http.service.ServiceClient.getOrFail(ServiceClient.java:101)
+	at org.sonar.scanner.rule.DefaultActiveRulesLoader.load(DefaultActiveRulesLoader.java:54)
+	at org.sonar.scanner.rule.ActiveRulesProvider.load(ActiveRulesProvider.java:52)
+	at org.sonar.scanner.rule.ActiveRulesProvider.provide(ActiveRulesProvider.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1360)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2015)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1978)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1821)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1718)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1658)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:204)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart(SpringGlobalContainer.java:150)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.ServerScannerEngineRunner.runSpringContainer(ServerScannerEngineRunner.java:35)
+	at org.sonar.scanner.bootstrap.AbstractScannerEngineRunner.execute(AbstractScannerEngineRunner.java:69)
+	at org.sonar.scanner.bootstrap.AbstractScannerEngineRunner.execute(AbstractScannerEngineRunner.java:51)
+	at org.sonar.scanner.bootstrap.ScannerMain.runScannerEngine(ScannerMain.java:144)
+	at org.sonar.scanner.bootstrap.ScannerMain.run(ScannerMain.java:65)
+	at org.sonar.scanner.bootstrap.ScannerMain.main(ScannerMain.java:45)
+
+[DEBUG] Java command exited with code 1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.412 s
+[INFO] Finished at: 2026-10-15T17:05:26+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar (default-cli) on project country-service: The scanner analysis has failed! See the logs for more details. -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar (default-cli) on project country-service: The scanner analysis has failed! See the logs for more details.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: The scanner analysis has failed! See the logs for more details.
+    at org.sonarsource.scanner.maven.bootstrap.ScannerBootstrapper.execute (ScannerBootstrapper.java:85)
+    at org.sonarsource.scanner.maven.SonarQubeMojo.execute (SonarQubeMojo.java:123)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoFailureException: The scanner analysis has failed! See the logs for more details.
+    at org.sonarsource.scanner.maven.bootstrap.ScannerBootstrapper.execute (ScannerBootstrapper.java:81)
+    at org.sonarsource.scanner.maven.SonarQubeMojo.execute (SonarQubeMojo.java:123)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:362)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
