@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                git branch: 'main', url: 'https://github.com/RihabFattani/Country-service.git'
+                git branch: 'main', url: 'https://github.com/RihabFattani/country-service.git'
             }
         }
         stage('Build maven') {
@@ -28,8 +28,4 @@ pipeline {
         stage('Deploy micro-service') {
             steps {
                 sh 'docker rm -f country-service || true'
-                sh 'docker run -d --name country-service -p 8082:8082 my-country-service:$BUILD_NUMBER'
-            }
-        }
-    }
-}
+                sh 'docker run -d --name country-service -p
