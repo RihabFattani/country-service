@@ -25,7 +25,9 @@ pipeline {
                 sh 'docker push rihabfatteni/my-country-service:$BUILD_NUMBER'
             }
         }
-        stage('Deploy micro-service') {
+                stage('Deploy micro-service') {
             steps {
                 sh 'docker rm -f country-service || true'
-                sh 'docker run -d --name country-service -p
+                sh 'docker run -d --name country-service -p 8082:8082 my-country-service:$BUILD_NUMBER'
+            }
+        }
