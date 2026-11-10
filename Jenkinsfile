@@ -25,11 +25,15 @@ pipeline {
                 sh 'docker push rihabfatteni/my-country-service:$BUILD_NUMBER'
             }
         }
-        stage('Deploy micro-service') {
+        stage('Deploy to Kubernetes') {
             steps {
-                sh 'docker rm -f country-service || true'
-                sh 'docker run -d --name country-service -p 8081:8081 my-country-service:$BUILD_NUMBER'
+                script{
+             kubeconfig(credentialsId: 'kubeconfig-file', serverUrl: ''){
+                sh 'kubectl apply -f deployment.yml'
+                sh 'kubectl apply -f service.yml'
             }
         }
     }
+  }
+}
 }
