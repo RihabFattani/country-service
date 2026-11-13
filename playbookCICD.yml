@@ -40,7 +40,13 @@
         name: "{{ docker_registry_username }}/{{ image_name }}:{{ image_tag }}"
         tag: "{{ image_tag }}"
         source: pull
-
+    - name: Create namespace jenkins
+      kubernetes.core.k8s:
+        name: jenkins
+        api_version: v1
+        kind: Namespace
+        state: present
+        kubeconfig: config
     - name: Apply Kubernetes Deployment
       kubernetes.core.k8s:
         state: present
@@ -51,6 +57,6 @@
     - name: Apply Kubernetes Service
       kubernetes.core.k8s:
         state: present
-        namespace: JenkinsfileAnsible
+        namespace: Jenkins
         src: service.yml
         kubeconfig: config
