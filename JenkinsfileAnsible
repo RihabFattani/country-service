@@ -14,25 +14,24 @@ pipeline {
             steps {
                 sh 'mvn clean install'
             }
-          stage('Deploy using Ansible playbook') {
+        }
+        stage('Deploy using Ansible playbook') {
             steps {
-              script{
-                
-                sh 'ansible-playbook -i hosts playbookCICD.yml --check'
+                script {
+                    sh 'ansible-playbook -i hosts playbookCICD.yml --check'
+                }
             }
-            }
-}
         }
-      post{
-        always{
-          cleanWs()
+    }
+    post {
+        always {
+            cleanWs()
         }
-      success{
-        echo 'Ansible playbook executed successfully!'
-      }
-        failure{
-          echo 'Ansible playbook execution failed!'
+        success {
+            echo 'Ansible playbook executed successfully!'
         }
-      }
+        failure {
+            echo 'Ansible playbook execution failed!'
+        }
     }
 }
