@@ -28,10 +28,10 @@ pipeline {
           cleanWs()
         }
       success{
-        echo 'Ansible playbook executed successfully!"
+        echo 'Ansible playbook executed successfully!'
       }
         failure{
-          echo 'Ansible playbook execution failed!"
+          echo 'Ansible playbook execution failed!'
         }
       }
     }
