@@ -45,12 +45,12 @@
       kubernetes.core.k8s:
         state: present
         namespace: jenkins
-        src: deployment.yaml
+        src: deployment.yml
         kubeconfig: config
 
     - name: Apply Kubernetes Service
       kubernetes.core.k8s:
         state: present
         namespace: jenkins
-        src: service.yaml
+        src: service.yml
         kubeconfig: config
