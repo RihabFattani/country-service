@@ -5,7 +5,7 @@
 
   vars:
     image_name: my-country-service
-    image_tag: "2"
+    image_tag: "3"
     dockerfile_path: './'
     docker_registry_username: rihabfatteni
     docker_registry_password: Rihab11676981#
