@@ -51,6 +51,6 @@
     - name: Apply Kubernetes Service
       kubernetes.core.k8s:
         state: present
-        namespace: jenkins
+        namespace: JenkinsfileAnsible
         src: service.yml
         kubeconfig: config
