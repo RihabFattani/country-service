@@ -1,57 +1,75 @@
+
 ---
 - name: Build and Deploy Docker Image to Kubernetes
-  hosts: localhost # Or your build/deployment server
+  hosts: localhost
   connection: local
+  gather_facts: false
 
   vars_files:
     - vault.yml
-  tasks:
-    - name: Log in to Docker Hub
-      community.general.docker_login:
-        username: "{{ docker_registry_username }}"
-        password: "{{ docker_registry_password }}"
-        reauthorize: yes
 
+  vars:
+    dockerfile_path: "."
+    image_name: "my-country-service"
+    image_tag: "3"
+    namespace: "jenkins"
+    kubeconfig_path: "./config"
+
+  tasks:
+
+    # 1. Connexion à Docker Hub
+    - name: Log in to Docker Hub
+      community.docker.docker_login:
+        username: "{{ dockerhub_username }}"
+        password: "{{ dockerhub_password }}"
+        reauthorize: true
+
+    # 2. Construction de l'image Docker
     - name: Build Docker image
-      docker_image:
+      community.docker.docker_image:
+        name: "{{ dockerhub_username }}/{{ image_name }}"
+        tag: "{{ image_tag }}"
+        source: build
         build:
           path: "{{ dockerfile_path }}"
-        name: "{{ docker_registry_username }}/{{ image_name }}:{{ image_tag }}"
-        source: build
         state: present
-        tag: "{{ image_tag }}"
 
-    - name: Push the Docker image to Docker Hub
-      docker_image:
-        name: "{{ docker_registry_username }}/{{ image_name }}:{{ image_tag }}"
+    # 3. Envoi de l'image vers Docker Hub
+    - name: Push Docker image to Docker Hub
+      community.docker.docker_image:
+        name: "{{ dockerhub_username }}/{{ image_name }}"
         tag: "{{ image_tag }}"
-        push: yes
         source: local
+        push: true
 
-    - name: Pull Docker image (optional, for verification or on target nodes)
-      docker_image:
-        name: "{{ docker_registry_username }}/{{ image_name }}:{{ image_tag }}"
+    # 4. Récupération de l'image pour vérification
+    - name: Pull Docker image from Docker Hub
+      community.docker.docker_image:
+        name: "{{ dockerhub_username }}/{{ image_name }}"
         tag: "{{ image_tag }}"
         source: pull
 
-    - name: Create namespace jenkins
+    # 5. Création du namespace Kubernetes
+    - name: Create Kubernetes namespace
       kubernetes.core.k8s:
-        name: jenkins
+        name: "{{ namespace }}"
         api_version: v1
         kind: Namespace
         state: present
-        kubeconfig: config
+        kubeconfig: "{{ kubeconfig_path }}"
 
+    # 6. Déploiement de l'application
     - name: Apply Kubernetes Deployment
       kubernetes.core.k8s:
         state: present
-        namespace: jenkins
-        src: deployment.yml
-        kubeconfig: config
+        namespace: "{{ namespace }}"
+        src: "./deployment.yml"
+        kubeconfig: "{{ kubeconfig_path }}"
 
+    # 7. Création du Service Kubernetes
     - name: Apply Kubernetes Service
       kubernetes.core.k8s:
         state: present
-        namespace: jenkins
-        src: service.yml
-        kubeconfig: config
+        namespace: "{{ namespace }}"
+        src: "./service.yml"
+        kubeconfig: "{{ kubeconfig_path }}"
